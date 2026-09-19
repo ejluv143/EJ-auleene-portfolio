@@ -2,11 +2,8 @@
 
 import { useState, useEffect } from "react";
 import AboutMe from "../components/AboutMe";
-import MyProjects from "../components/Myproject";
-import Certificates from "../components/Certificate";
 import Skills from "../components/Skills";
 import Experience from "../components/Experience";
-import Services from "../components/Services";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Link from "next/link";
@@ -44,22 +41,17 @@ export default function DashboardHome() {
   const links = [
     "home",
     "about",
-    "projects",
-    "certificates",
     "skills",
     "experience",
-    "services",
     "contact",
   ];
 
   const roles = [
-    { prep: "a", suffix: "Web Developer" },
-    { prep: "a", suffix: "Mobile Developer" },
-    { prep: "a", suffix: "Machine Learning Engineer" },
-    { prep: "an", suffix: "IoT Developer" },
-    { prep: "a", suffix: "Full Stack Developer" },
-    { prep: "a", suffix: "Backend Developer" },
-    { prep: "an", suffix: "ATM Technician" },
+    { prep: "a", suffix: "Warehouse Clerk" },
+    { prep: "a", suffix: "Ward Man" },
+    { prep: "a", suffix: "Merchandiser" },
+    { prep: "a", suffix: "Receptionist" },
+    { prep: "a", suffix: "Cashier" },
   ];
 
   useEffect(() => {
@@ -263,7 +255,7 @@ export default function DashboardHome() {
       "
     >
       <Image
-  src="/linkedprof.png"
+  src="/bopep.png"
   alt="Profile"
   width={500}
   height={500}
@@ -308,7 +300,7 @@ export default function DashboardHome() {
     >
       Hi, I'm{" "}
       <span className="text-blue-400 drop-shadow-[0_0_20px_rgba(59,130,246,0.8)]">
-        E.J Auleene Matrayo Cañete
+        E.J. Auleeane Magtrayo Cañete
       </span>
     </h1>
 
@@ -370,16 +362,10 @@ export default function DashboardHome() {
 </section>
         {/* ABOUT SECTION */}
         <AboutMe />
-        {/* PROJECTS */}
-        <MyProjects />
-        {/* CERTIFICATES */}
-        <Certificates />
         {/* SKILLS */}
         <Skills />
         {/* EXPERIENCE */}
         <Experience />
-        {/* SERVICES */}
-        <Services />
         {/* CONTACT */}
         <Contact />
 

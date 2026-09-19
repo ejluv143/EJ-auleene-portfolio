@@ -15,7 +15,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "My Portfolio",
-  description: "E.J Auleene Matrayo Cañete Portfolio",
+  description: "E.J. Auleeane Magtrayo Cañete Portfolio",
 };
 
 export default function DashboardLayout({

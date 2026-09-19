@@ -4,28 +4,28 @@ import { useEffect, useState } from "react";
 
 const skillGroups = [
   {
-    category: "Frontend",
+    category: "Computer Literacy",
     skills: [
-      { name: "HTML", level: 95 },
-      { name: "CSS", level: 90 },
-      { name: "JavaScript", level: 92 },
-      { name: "TypeScript", level: 85 },
-      { name: "Next.js", level: 88 },
-      { name: "React", level: 90 },
-      { name: "Tailwind CSS", level: 95 },
+      { name: "Microsoft Excel", level: 70 },
+      { name: "Microsoft Word", level: 75 },
+      { name: "Microsoft PowerPoint", level: 70 },
     ],
   },
   {
-    category: "Mobile",
+    category: "Workplace Skills",
     skills: [
-      { name: "React Native", level: 80 },
-      { name: "Flutter", level: 75 },
+      { name: "Organization", level: 85 },
+      { name: "Teamwork", level: 90 },
+      { name: "Inventory Handling", level: 85 },
+      { name: "Workplace Coordination", level: 80 },
     ],
   },
   {
-    category: "AI / Backend",
+    category: "Personal Qualities",
     skills: [
-      { name: "Python", level: 85 },
+      { name: "Hardworking", level: 95 },
+      { name: "Adaptable", level: 90 },
+      { name: "Willingness to Learn", level: 95 },
     ],
   },
 ];
@@ -55,7 +55,7 @@ export default function Skills() {
         </h2>
 
         <p className="text-center text-gray-400 mb-[clamp(40px,6vw,90px)] text-[clamp(14px,1.2vw,20px)]">
-          Technologies I use to build modern, responsive, and intelligent applications.
+          Skills I've developed through hands-on experience in warehouse, hospital, and retail environments.
         </p>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-[clamp(24px,3vw,50px)]">

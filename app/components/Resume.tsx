@@ -106,26 +106,27 @@ export default function Resume() {
               <aside className="bg-blue-500/10 dark:bg-black/40 p-8 flex flex-col items-center lg:items-start text-center lg:text-left">
                 <div className="w-40 h-40 rounded-full overflow-hidden border-4 border-blue-500 shadow-[0_0_35px_rgba(59,130,246,0.7)] mb-6">
                   <img
-                    src="/linkedprof.png"
-                    alt="E.J Auleene Matrayo Cañete"
+                    src="/bopep.png"
+                    alt="E.J. Auleeane Magtrayo Cañete"
                     className="w-full h-full object-cover"
                   />
                 </div>
 
                 <h1 className="text-4xl font-extrabold leading-tight">
-                  E.J Auleene Matrayo <span className="text-blue-500">Cañete</span>
+                  E.J. Auleeane Magtrayo <span className="text-blue-500">Cañete</span>
                 </h1>
 
                 <p className="mt-2 text-lg font-semibold text-blue-500 dark:text-blue-400">
-                  ATM Technician
+                  Cashier/Receptionist
                 </p>
 
                 <div className="mt-8 space-y-3 text-sm text-gray-700 dark:text-gray-300 break-words">
+                  <p>🎂 August 15, 1995</p>
+                  <p>📍 Birthplace: Tagum City</p>
                   <p>📍 Valencia City, Bukidnon 8709</p>
-                  <p>📞 09552965432</p>
-                  <p>📧 loudale@aclcbukidnon.com</p>
-                  <p>🔗 linkedin.com/in/ej-loudale-cañete-944605344</p>
-                  <p>🌐 ejportfolio-ten.vercel.app</p>
+                  <p>📞 09524514840</p>
+                  <p>📧 bopep1995@gmail.com</p>
+                  <p>🌐 https://ej-auleene-portfolio.vercel.app/</p>
                 </div>
 
                 <div className="mt-10 w-full">
@@ -134,15 +135,14 @@ export default function Resume() {
                   </h2>
 
                   <ul className="space-y-2 text-sm text-gray-700 dark:text-gray-300">
-                    <li>• Microsoft Office</li>
-                    <li>• PC Assembly and Troubleshooting</li>
-                    <li>• Web Design</li>
-                    <li>• React, React Native, Flutter</li>
-                    <li>• Java, JavaScript</li>
-                    <li>• Basic Networking LAN / WLAN</li>
-                    <li>• ATM Maintenance</li>
-                    <li>• Network Configuration</li>
-                    <li>• IoT Device Management</li>
+                    <li>• Microsoft Excel</li>
+                    <li>• Microsoft Word</li>
+                    <li>• Microsoft PowerPoint</li>
+                    <li>• Cashiering & Billing</li>
+                    <li>• Customer Service</li>
+                    <li>• Organization & Time Management</li>
+                    <li>• Teamwork & Workplace Coordination</li>
+                    <li>• Inventory Handling</li>
                   </ul>
                 </div>
               </aside>
@@ -154,10 +154,10 @@ export default function Resume() {
                     Career Objective
                   </h2>
                   <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                    To apply my acquired knowledge in web design, mobile app
-                    development, backend development, and networking within a
-                    reputable organization, while further developing my skills in
-                    IoT and disaster response technologies.
+                    To secure a position where I can apply my work experience in
+                    hospital front-desk support, warehouse operations, and
+                    merchandising, while continuing to grow my skills and
+                    contribute effectively to the organization.
                   </p>
                 </section>
 
@@ -166,10 +166,14 @@ export default function Resume() {
                     Professional Summary
                   </h2>
                   <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-                    Professional technician focused on maintaining and repairing
-                    ATM systems, ensuring operational efficiency and security.
-                    Skilled in diagnosing and resolving technical issues,
-                    improving uptime and reliability.
+                    Hardworking and adaptable professional currently working as
+                    a Cashier/Receptionist, with prior experience in warehouse
+                    operations, hospital ward support, and merchandising.
+                    Skilled in cashiering, customer service, organization,
+                    teamwork, inventory handling, and workplace coordination,
+                    with basic computer literacy in Microsoft Excel, Word, and
+                    PowerPoint. Willing to learn new skills and take on new
+                    responsibilities.
                   </p>
                 </section>
 
@@ -180,89 +184,124 @@ export default function Resume() {
 
                   <div className="mb-8">
                     <p className="text-sm text-blue-500 font-bold">
-                      2025-07 - Current
+                      2023 - Present
                     </p>
-                    <h3 className="text-xl font-bold">ATM Technician I</h3>
+                    <h3 className="text-xl font-bold">Cashier/Receptionist</h3>
+                    <p className="text-gray-500 mb-3">Alorf Hospital</p>
+                    <ul className="space-y-2 text-gray-700 dark:text-gray-300 text-sm">
+                      <li>• Handles cashiering and billing transactions.</li>
+                      <li>• Greets and assists patients and visitors at the front desk.</li>
+                      <li>• Manages appointment scheduling and phone inquiries.</li>
+                    </ul>
+                  </div>
+
+                  <div className="mb-8">
+                    <p className="text-sm text-blue-500 font-bold">
+                      2022 - 2023
+                    </p>
+                    <h3 className="text-xl font-bold">Merchandiser</h3>
+                    <p className="text-gray-500 mb-3">Roy Plaza</p>
+                    <ul className="space-y-2 text-gray-700 dark:text-gray-300 text-sm">
+                      <li>• Arranged and maintained product displays on the sales floor.</li>
+                      <li>• Monitored stock levels and replenished merchandise.</li>
+                      <li>• Assisted customers and supported daily store operations.</li>
+                    </ul>
+                  </div>
+
+                  <div className="mb-8">
+                    <p className="text-sm text-blue-500 font-bold">
+                      2018 - 2022
+                    </p>
+                    <h3 className="text-xl font-bold">Warehouse Clerk</h3>
                     <p className="text-gray-500 mb-3">
-                      One Point Contact Inc. — Valencia, Bukidnon
+                      M. Montesclaros Enterprise, Inc.
                     </p>
                     <ul className="space-y-2 text-gray-700 dark:text-gray-300 text-sm">
-                      <li>• Maintains and repairs ATM systems.</li>
-                      <li>• Handles compliance with safety and servicing standards.</li>
-                      <li>• Performs inspections to prevent outages.</li>
-                      <li>
-                        • Currently handles 44 Hitachi ATMs of Pito AXM Platform
-                        Inc.
-                      </li>
+                      <li>• Maintained accurate inventory records.</li>
+                      <li>• Coordinated the receiving and dispatching of goods.</li>
+                      <li>• Kept warehouse stock organized and supported the operations team.</li>
                     </ul>
                   </div>
 
                   <div>
                     <p className="text-sm text-blue-500 font-bold">
-                      2021-02 - 2025-05
+                      2017 - 2019
                     </p>
-                    <h3 className="text-xl font-bold">Intern</h3>
+                    <h3 className="text-xl font-bold">Ward Man</h3>
                     <p className="text-gray-500 mb-3">
-                      ACLC College of Bukidnon — Valencia, Bukidnon
+                      LaViña General Hospital
                     </p>
                     <ul className="space-y-2 text-gray-700 dark:text-gray-300 text-sm">
-                      <li>• Supported staff with daily tasks and reports.</li>
-                      <li>• Collaborated with teams to solve problems.</li>
-                      <li>• Gained hands-on experience with software tools.</li>
-                      <li>• President of 2025 Graduating Students.</li>
+                      <li>• Assisted patients and nursing staff with daily ward needs.</li>
+                      <li>• Supported hospital ward operations.</li>
+                      <li>• Helped maintain a clean and orderly care environment.</li>
                     </ul>
                   </div>
                 </section>
 
                 <section className="mb-10">
-                  <h2 className="text-2xl font-bold text-blue-500 mb-3">
+                  <h2 className="text-2xl font-bold text-blue-500 mb-5">
                     Education
                   </h2>
-                  <h3 className="text-xl font-bold">
-                    Bachelor of Science in Information Technology
-                  </h3>
-                  <p className="text-gray-500">
-                    ACLC Computer College — Valencia City, Bukidnon
-                  </p>
-                  <p className="text-gray-700 dark:text-gray-300 text-sm mt-2">
-                    Completed coursework: Software Engineering, IT Capstone 1,
-                    IT Capstone 2.
-                  </p>
-                </section>
 
-                <section className="mb-10">
-                  <h2 className="text-2xl font-bold text-blue-500 mb-3">
-                    Software
-                  </h2>
-                  <div className="flex flex-wrap gap-2">
-                    {[
-                      "JavaScript",
-                      "Python",
-                      "React",
-                      "React Native",
-                      "Node.js",
-                      "Machine Learning",
-                    ].map((item) => (
-                      <span
-                        key={item}
-                        className="px-3 py-1 rounded-full bg-blue-500/10 border border-blue-400/30 text-blue-600 dark:text-blue-300 text-sm"
-                      >
-                        {item}
-                      </span>
-                    ))}
+                  <div className="mb-6">
+                    <h3 className="text-xl font-bold">College</h3>
+                    <p className="text-gray-500">
+                      ACLC College of Valencia — Undergraduate
+                    </p>
+                    <p className="text-gray-700 dark:text-gray-300 text-sm mt-1">
+                      2015
+                    </p>
+                  </div>
+
+                  <div className="mb-6">
+                    <h3 className="text-xl font-bold">High School</h3>
+                    <p className="text-gray-500">
+                      Central Bukidnon Institute
+                    </p>
+                    <p className="text-gray-700 dark:text-gray-300 text-sm mt-1">
+                      2008 - 2013
+                    </p>
+                  </div>
+
+                  <div>
+                    <h3 className="text-xl font-bold">Elementary</h3>
+                    <p className="text-gray-500">
+                      Magugpo Pilot Central Elementary School
+                    </p>
+                    <p className="text-gray-700 dark:text-gray-300 text-sm mt-1">
+                      2002 - 2008
+                    </p>
                   </div>
                 </section>
 
                 <section>
-                  <h2 className="text-2xl font-bold text-blue-500 mb-3">
-                    Certifications
+                  <h2 className="text-2xl font-bold text-blue-500 mb-5">
+                    References
                   </h2>
-                  <p className="text-gray-700 dark:text-gray-300">
-                    Machine Learning — Coursera / Stanford Online
-                  </p>
-                  <p className="text-gray-700 dark:text-gray-300">
-                    Supervised Machine Learning: Regression and Classification
-                  </p>
+
+                  <div className="space-y-4">
+                    <div>
+                      <h3 className="text-lg font-bold">Iris Abapo</h3>
+                      <p className="text-gray-700 dark:text-gray-300 text-sm">
+                        HR Assistant — Alorf Hospital
+                      </p>
+                    </div>
+
+                    <div>
+                      <h3 className="text-lg font-bold">Ramlyze Soreño</h3>
+                      <p className="text-gray-700 dark:text-gray-300 text-sm">
+                        Warehouse Operator
+                      </p>
+                    </div>
+
+                    <div>
+                      <h3 className="text-lg font-bold">Eldon Vincent Chang-li</h3>
+                      <p className="text-gray-700 dark:text-gray-300 text-sm">
+                        Chief Nursing Officer — LaViña General Hospital
+                      </p>
+                    </div>
+                  </div>
                 </section>
               </div>
             </div>

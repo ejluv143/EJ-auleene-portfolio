@@ -2,12 +2,31 @@
 
 const experiences = [
   {
-    year: "2025 - Present",
-    title: "ATM Technician",
-    company: "One Point Contact",
-    icon: "🛠️",
+    year: "2022 - 2023",
+    title: "Merchandiser",
+    company: "Roy Plaza",
+    icon: "🛒",
     description:
-      "Responsible for maintaining, troubleshooting, and repairing ATM machines. Ensures system uptime, handles hardware/software issues, and performs preventive maintenance.",
+      "Arranged and maintained product displays, monitored stock levels, and assisted customers on the sales floor to support daily store operations.",
+    tags: ["Merchandising", "Customer Service", "Stock Monitoring"],
+  },
+  {
+    year: "2018 - 2022",
+    title: "Warehouse Clerk",
+    company: "M. Montesclaros Enterprise, Inc.",
+    icon: "📦",
+    description:
+      "Handled inventory records, coordinated the receiving and dispatching of goods, and kept warehouse stock organized in support of the operations team.",
+    tags: ["Inventory Handling", "Warehouse Operations", "Organization"],
+  },
+  {
+    year: "2017 - 2019",
+    title: "Ward Man",
+    company: "LaViña General Hospital",
+    icon: "🏥",
+    description:
+      "Assisted patients and nursing staff with daily ward needs, supported hospital operations, and helped maintain a clean and orderly care environment.",
+    tags: ["Patient Support", "Hospital Operations", "Teamwork"],
   },
 ];
 
@@ -115,7 +134,7 @@ export default function Experience() {
                 </p>
 
                 <div className="mt-6 flex flex-wrap gap-2">
-                  {["Hardware", "Troubleshooting", "Maintenance"].map((tag) => (
+                  {exp.tags.map((tag) => (
                     <span
                       key={tag}
                       className="

@@ -36,7 +36,7 @@ export default function Intro({ onFinish }: { onFinish: () => void }) {
 
           <div className="relative h-[clamp(190px,22vw,360px)] w-[clamp(190px,22vw,360px)] overflow-hidden rounded-full border-4 border-blue-500 shadow-[0_0_60px_rgba(59,130,246,0.9),0_0_120px_rgba(255,255,255,0.25)]">
             <img
-              src="/linkedprof.png"
+              src="/bopep.png"
               alt="Profile"
               className="h-full w-full object-cover scale-110"
             />

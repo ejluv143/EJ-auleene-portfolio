@@ -12,7 +12,7 @@ export default function AIAgent() {
   // ✅ ADDED (chatbot state)
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState([
-    { sender: "bot", text: "Hi! Ask me about my skills, projects, resume, or experience." }
+    { sender: "bot", text: "Hi! Ask me about my skills, resume, or experience." }
   ]);
   const [loading, setLoading] = useState(false);
 

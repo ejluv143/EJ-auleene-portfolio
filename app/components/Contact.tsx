@@ -53,8 +53,8 @@ export default function Contact() {
         </h2>
 
         <p className="mx-auto mt-6 max-w-2xl text-[clamp(15px,1.2vw,22px)] leading-relaxed text-gray-300">
-          Let’s connect for collaborations, freelance projects, web apps, AI
-          systems, mobile apps, or technical support.
+          Let’s connect for job opportunities or inquiries about my
+          experience and availability.
         </p>
 
         <div className="mt-[clamp(32px,5vw,70px)] grid grid-cols-2 gap-[clamp(16px,2vw,32px)] md:grid-cols-4">

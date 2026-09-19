@@ -60,7 +60,7 @@ export default function AboutMe() {
             "
           >
             <img
-              src="/linkedprof.png"
+              src="/bopep.png"
               alt="About Me"
               className="
                 w-full h-full object-cover
@@ -113,30 +113,47 @@ export default function AboutMe() {
             <p>
               I'm{" "}
               <span className="text-theme font-semibold">
-                E.J Auleene Matrayo Cañete
-              </span>, a passionate developer who builds modern, responsive,
-              and intelligent applications with real-world impact.
-            </p>
-
-            <p>
-              I specialize in{" "}
+                E.J. Auleeane Magtrayo Cañete
+              </span>, born on August 15, 1995, in Tagum City. I have gained
+              valuable work experience in{" "}
               <span className="text-blue-400 font-semibold">
-                Web Development, Mobile Apps, Machine Learning, and IoT Systems
+                warehouse operations, hospital support services, and merchandising
               </span>.
             </p>
 
             <p>
-              With experience as an{" "}
+              Currently, I work as a{" "}
               <span className="text-theme font-semibold">
-                ATM Technician
-              </span>, I bring strong hardware troubleshooting and real-world problem-solving skills.
+                Cashier/Receptionist
+              </span> at Alorf Hospital (2023–Present).
             </p>
 
             <p>
-              My mission is to become a{" "}
+              My previous positions include{" "}
+              <span className="text-theme font-semibold">
+                Warehouse Clerk
+              </span> at M. Montesclaros Enterprise, Inc. (2018–2022),{" "}
+              <span className="text-theme font-semibold">Ward Man</span> at
+              LaViña General Hospital (2017–2019), and{" "}
+              <span className="text-theme font-semibold">Merchandiser</span> at
+              Roy Plaza (2022–2023).
+            </p>
+
+            <p>
+              I have basic computer skills, particularly in{" "}
               <span className="text-blue-400 font-semibold">
-                full-stack AI engineer
-              </span> building impactful systems.
+                Microsoft Excel, Microsoft Word, and Microsoft PowerPoint
+              </span>. My work experiences have helped me develop skills in
+              organization, teamwork, inventory handling, workplace
+              coordination, and supporting daily operations.
+            </p>
+
+            <p>
+              I am{" "}
+              <span className="text-blue-400 font-semibold">
+                hardworking, adaptable, and willing to learn
+              </span>{" "}
+              new skills and take on new responsibilities.
             </p>
           </div>
 
@@ -144,8 +161,8 @@ export default function AboutMe() {
           <div className="mt-[clamp(30px,3vw,60px)] grid grid-cols-3 gap-[clamp(12px,2vw,40px)] text-center">
 
             {[
-              { value: "5+", label: "Projects" },
-              { value: "3+", label: "Technologies" },
+              { value: "9+", label: "Years Experience" },
+              { value: "4", label: "Companies" },
               { value: "∞", label: "Learning" },
             ].map((item, i) => (
               <div

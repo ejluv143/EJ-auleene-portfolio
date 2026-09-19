@@ -30,8 +30,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "E.J Auleene Matrayo Cañete | Portfolio",
-  description: "Portfolio of E.J Auleene Matrayo Cañete",
+  title: "E.J. Auleeane Magtrayo Cañete | Portfolio",
+  description: "Portfolio of E.J. Auleeane Magtrayo Cañete",
 };
 
 export default function RootLayout({

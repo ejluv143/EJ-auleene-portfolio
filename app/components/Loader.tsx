@@ -50,7 +50,7 @@ export default function Loader({
 
         <div className="relative h-40 w-40 overflow-hidden rounded-full border-4 border-blue-500 shadow-[0_0_60px_rgba(59,130,246,0.9)] animate-spin-slow">
           <Image
-            src="/linkedprof.png"
+            src="/bopep.png"
             alt="Loading"
             width={160}
             height={160}

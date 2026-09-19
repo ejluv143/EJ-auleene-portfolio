@@ -6,11 +6,8 @@ export default function Footer() {
   const links = [
     "home",
     "about",
-    "projects",
-    "certificates",
     "skills",
     "experience",
-    "services",
     "contact",
   ];
 
@@ -161,19 +158,19 @@ export default function Footer() {
                 "
               >
                 <img
-                  src="/linkedprof.png"
+                  src="/bopep.png"
                   alt="profile"
                   className="h-full w-full object-cover"
                 />
               </div>
 
               <h4 className="text-[clamp(18px,1.5vw,28px)] font-bold">
-                E.J Auleene Matrayo Cañete
+                E.J. Auleeane Magtrayo Cañete
               </h4>
 
               <p className="mt-3 max-w-[360px] text-[clamp(13px,1vw,18px)] leading-relaxed text-gray-400">
-                Aspiring Machine Learning Engineer • Next.js Enthusiast •
-                Mobile Developer • Full Stack Developer
+                Warehouse Operations • Hospital Support • Merchandising •
+                Hardworking & Adaptable
               </p>
             </div>
           </div>
@@ -181,7 +178,7 @@ export default function Footer() {
           {/* BOTTOM */}
           <div className="mt-[clamp(40px,5vw,80px)] flex flex-col items-center justify-between gap-5 border-t border-white/10 pt-6 text-center text-[clamp(12px,0.9vw,16px)] text-gray-400 md:flex-row">
             <p>
-              © {new Date().getFullYear()} E.J Auleene Matrayo Cañete. All rights
+              © {new Date().getFullYear()} E.J. Auleeane Magtrayo Cañete. All rights
               reserved.
             </p>
 
