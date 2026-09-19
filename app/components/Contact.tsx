@@ -1,27 +1,11 @@
 "use client";
 
-import { FaLinkedin, FaGithub, FaFacebook, FaEnvelope } from "react-icons/fa";
+import { FaFacebook, FaEnvelope } from "react-icons/fa";
 
 const contacts = [
   {
-    name: "LinkedIn",
-    href: "https://www.linkedin.com/in/ej-loudale-cañete-944605344",
-    icon: FaLinkedin,
-    color: "text-blue-400",
-    hover: "hover:bg-blue-500",
-    shadow: "shadow-[0_0_30px_rgba(59,130,246,0.45)]",
-  },
-  {
-    name: "GitHub",
-    href: "https://github.com/ejluv143",
-    icon: FaGithub,
-    color: "text-gray-200",
-    hover: "hover:bg-gray-800",
-    shadow: "shadow-[0_0_30px_rgba(255,255,255,0.25)]",
-  },
-  {
     name: "Gmail",
-    href: "mailto:ejloudalec13@gmail.com",
+    href: "mailto:bopep1995@gmail.com",
     icon: FaEnvelope,
     color: "text-red-400",
     hover: "hover:bg-red-500",
@@ -29,7 +13,7 @@ const contacts = [
   },
   {
     name: "Facebook",
-    href: "https://www.facebook.com/ej.loudale.canete.2025/about",
+    href: "https://www.facebook.com/e.j.auleeane.m.canete.2025",
     icon: FaFacebook,
     color: "text-blue-400",
     hover: "hover:bg-blue-600",
@@ -57,7 +41,7 @@ export default function Contact() {
           experience and availability.
         </p>
 
-        <div className="mt-[clamp(32px,5vw,70px)] grid grid-cols-2 gap-[clamp(16px,2vw,32px)] md:grid-cols-4">
+        <div className="mt-[clamp(32px,5vw,70px)] flex flex-wrap justify-center gap-[clamp(16px,2vw,32px)]">
           {contacts.map((item) => {
             const Icon = item.icon;
 
@@ -75,6 +59,8 @@ export default function Contact() {
                   group
                   relative
                   flex
+                  w-full
+                  max-w-[260px]
                   min-h-[clamp(140px,13vw,220px)]
                   flex-col
                   items-center
@@ -121,7 +107,7 @@ export default function Contact() {
 
         <div className="mt-[clamp(32px,5vw,60px)]">
           <a
-            href="mailto:ejloudalec13@gmail.com"
+            href="mailto:bopep1995@gmail.com"
             className="inline-flex items-center justify-center rounded-full bg-blue-500 px-8 py-3 font-bold text-white shadow-[0_0_35px_rgba(59,130,246,0.7)] transition hover:scale-105 hover:bg-blue-600"
           >
             Send Me an Email

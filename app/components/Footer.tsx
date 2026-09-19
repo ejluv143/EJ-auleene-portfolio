@@ -1,11 +1,12 @@
 "use client";
 
-import { FaFacebook, FaGithub, FaLinkedin, FaArrowUp } from "react-icons/fa";
+import { FaFacebook, FaArrowUp } from "react-icons/fa";
 
 export default function Footer() {
   const links = [
     "home",
     "about",
+    "certificates",
     "skills",
     "experience",
     "contact",
@@ -80,7 +81,7 @@ export default function Footer() {
 
               <div className="flex justify-center gap-[clamp(18px,3vw,45px)]">
                 <a
-                  href="https://www.facebook.com/ej.loudale.canete.2025/about"
+                  href="https://www.facebook.com/e.j.auleeane.m.canete.2025"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="
@@ -98,48 +99,6 @@ export default function Footer() {
                   "
                 >
                   <FaFacebook />
-                </a>
-
-                <a
-                  href="https://github.com/ejluv143"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="
-                    rounded-full
-                    border border-white/10
-                    bg-white/5
-                    p-[clamp(12px,1.2vw,22px)]
-                    text-[clamp(24px,2vw,42px)]
-                    text-gray-300
-                    shadow-[0_0_25px_rgba(255,255,255,0.2)]
-                    transition-all
-                    hover:scale-125
-                    hover:bg-gray-800
-                    hover:text-white
-                  "
-                >
-                  <FaGithub />
-                </a>
-
-                <a
-                  href="https://www.linkedin.com/in/ej-loudale-cañete-944605344"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="
-                    rounded-full
-                    border border-white/10
-                    bg-white/5
-                    p-[clamp(12px,1.2vw,22px)]
-                    text-[clamp(24px,2vw,42px)]
-                    text-blue-400
-                    shadow-[0_0_25px_rgba(59,130,246,0.35)]
-                    transition-all
-                    hover:scale-125
-                    hover:bg-blue-500
-                    hover:text-white
-                  "
-                >
-                  <FaLinkedin />
                 </a>
               </div>
             </div>

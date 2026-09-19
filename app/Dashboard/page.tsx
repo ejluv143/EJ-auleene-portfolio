@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import AboutMe from "../components/AboutMe";
+import Certificates from "../components/Certificate";
 import Skills from "../components/Skills";
 import Experience from "../components/Experience";
 import Contact from "../components/Contact";
@@ -41,6 +42,7 @@ export default function DashboardHome() {
   const links = [
     "home",
     "about",
+    "certificates",
     "skills",
     "experience",
     "contact",
@@ -362,6 +364,8 @@ export default function DashboardHome() {
 </section>
         {/* ABOUT SECTION */}
         <AboutMe />
+        {/* CERTIFICATES */}
+        <Certificates />
         {/* SKILLS */}
         <Skills />
         {/* EXPERIENCE */}

@@ -6,6 +6,11 @@
   box-sizing: border-box;
 }
 
+@page {
+  size: 8.5in 13in;
+  margin: 8mm;
+}
+
 img,
 picture,
 video,
