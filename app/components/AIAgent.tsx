@@ -116,8 +116,8 @@ export default function AIAgent() {
       style={{ top: position.top, right: position.right }}
     >
       {open && (
-        <div className="w-[330px] h-[460px] overflow-hidden rounded-2xl border border-white/10 bg-black/95 text-white shadow-[0_0_40px_rgba(59,130,246,0.5)]">
-          <div className="flex items-center justify-between bg-blue-600 px-4 py-3">
+        <div className="flex w-[min(330px,calc(100vw-32px))] h-[min(460px,70vh)] flex-col overflow-hidden rounded-2xl border border-white/10 bg-black/95 text-white shadow-[0_0_40px_rgba(59,130,246,0.5)]">
+          <div className="flex shrink-0 items-center justify-between bg-blue-600 px-4 py-3">
             <div>
               <h3 className="font-bold">AI Assistant</h3>
               <p className="text-xs text-blue-100">Ask about my portfolio</p>
@@ -129,7 +129,7 @@ export default function AIAgent() {
           </div>
 
           {/* ✅ UPDATED (chat messages) */}
-          <div className="h-[335px] overflow-y-auto p-4 text-sm space-y-2">
+          <div className="flex-1 overflow-y-auto p-4 text-sm space-y-2">
             {messages.map((msg, i) => (
               <div
                 key={i}
@@ -157,7 +157,7 @@ export default function AIAgent() {
           </div>
 
           {/* ✅ UPDATED (input control) */}
-          <div className="flex gap-2 border-t border-white/10 p-3">
+          <div className="flex shrink-0 gap-2 border-t border-white/10 p-3">
             <input
               value={input}
               onChange={(e) => setInput(e.target.value)}

@@ -3,7 +3,7 @@
 const certificates = [
   {
     title: "Diploma",
-    file: "/diploma.pdf",
+    image: "/diploma.png",
   },
 ];
 
@@ -43,10 +43,12 @@ export default function Certificates() {
             >
               {/* PREVIEW */}
               <div className="w-full bg-black/40 p-4">
-                <iframe
-                  src={`${cert.file}#toolbar=0&navpanes=0`}
-                  title={cert.title}
-                  className="w-full aspect-[4/3] rounded-lg border border-white/10 pointer-events-none"
+                <img
+                  src={cert.image}
+                  alt={cert.title}
+                  draggable={false}
+                  onContextMenu={(e) => e.preventDefault()}
+                  className="w-full h-auto max-h-[80vh] rounded-lg border border-white/10 object-contain select-none"
                 />
               </div>
 

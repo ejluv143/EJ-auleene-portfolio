@@ -132,7 +132,7 @@ export default function AboutMe() {
               My previous positions include{" "}
               <span className="text-theme font-semibold">
                 Warehouse Clerk
-              </span> at M. Montesclaros Enterprise, Inc. (2018–2022),{" "}
+              </span> at M. Montesclaros Enterprise, Inc. (2019–2022),{" "}
               <span className="text-theme font-semibold">Ward Man</span> at
               LaViña General Hospital (2017–2019), and{" "}
               <span className="text-theme font-semibold">Merchandiser</span> at

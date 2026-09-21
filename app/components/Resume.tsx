@@ -64,19 +64,20 @@ export default function Resume() {
         >
           <Link
   href="/?showLoader=true"
-  className="text-sm sm:text-lg xl:text-xl font-bold tracking-wide hover:text-blue-500 transition-colors"
+  className="shrink-0 text-sm sm:text-lg xl:text-xl font-bold tracking-wide hover:text-blue-500 transition-colors"
 >
-  ← Back to Portfolio
+  ← Back<span className="hidden sm:inline"> to Portfolio</span>
 </Link>
 
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-2 sm:gap-4">
             <button
               onClick={handleDownload}
+              aria-label="Download resume"
               className="
                 inline-flex items-center gap-2
                 rounded-xl
                 bg-blue-500
-                px-[clamp(14px,1.4vw,24px)]
+                px-[clamp(12px,1.4vw,24px)]
                 py-[clamp(8px,1vw,14px)]
                 text-sm sm:text-base
                 font-semibold
@@ -87,7 +88,7 @@ export default function Resume() {
                 hover:bg-blue-600
               "
             >
-              ⬇ Download
+              ⬇<span className="hidden sm:inline"> Download</span>
             </button>
 
             <button
@@ -249,7 +250,7 @@ export default function Resume() {
 
                   <div className="mb-8 print:mb-2">
                     <p className="text-sm print:text-xs text-blue-500 font-bold">
-                      2018 - 2022
+                      2019 - 2022
                     </p>
                     <h3 className="text-xl print:text-sm font-bold">Warehouse Clerk</h3>
                     <p className="text-gray-500 mb-3 print:mb-1 print:text-xs">

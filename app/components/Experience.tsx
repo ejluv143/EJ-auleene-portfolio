@@ -11,7 +11,7 @@ const experiences = [
     tags: ["Merchandising", "Customer Service", "Stock Monitoring"],
   },
   {
-    year: "2018 - 2022",
+    year: "2019 - 2022",
     title: "Warehouse Clerk",
     company: "M. Montesclaros Enterprise, Inc.",
     icon: "📦",

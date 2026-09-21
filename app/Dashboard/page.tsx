@@ -90,6 +90,7 @@ export default function DashboardHome() {
         {/* HEADER */}
         <header
   className="
+    relative z-50
     w-full
     flex items-center justify-between
 
@@ -196,11 +197,10 @@ export default function DashboardHome() {
             My Portfolio
           </div>
         </div>
-        </header>
 
         {/* MOBILE MENU */}
         {open && (
-          <div className="lg:hidden mt-6 w-full bg-white/10 backdrop-blur-xl border border-white/10 rounded-xl p-4">
+          <div className="lg:hidden absolute top-full inset-x-0 mt-2 z-40 w-full bg-[rgba(0,0,0,0.9)] backdrop-blur-xl border border-white/10 rounded-xl p-4 shadow-[0_20px_50px_rgba(0,0,0,0.5)]">
             <nav className="flex flex-col gap-4 text-gray-300">
               {links.map((link) => (
                 <a
@@ -215,6 +215,7 @@ export default function DashboardHome() {
             </nav>
           </div>
         )}
+        </header>
 
     {/* HERO */}
     <section
